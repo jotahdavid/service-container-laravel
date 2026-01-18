@@ -10,8 +10,8 @@ class FinanceiroReportGenerator implements IReportGenerator
         protected IUserRepository $userRepository
     ) {}
 
-    public function generate(): void
+    public function generate(): string
     {
-        dd('Relatório Financeiro gerado com sucesso!');
+        return 'Relatório Financeiro gerado com sucesso!';
     }
 }

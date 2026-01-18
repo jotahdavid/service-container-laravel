@@ -4,5 +4,5 @@ namespace App\ReportGenerators;
 
 interface IReportGenerator
 {
-    public function generate(): void;
+    public function generate(): string;
 }

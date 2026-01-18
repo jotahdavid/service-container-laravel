@@ -4,8 +4,8 @@ namespace App\ReportGenerators;
 
 class AlmoxarifadoReportGenerator implements IReportGenerator
 {
-    public function generate(): void
+    public function generate(): string
     {
-       dd('Relatório do Almoxarifado gerado com sucesso!');
+        return 'Relatório do Almoxarifado gerado com sucesso!';
     }
 }
